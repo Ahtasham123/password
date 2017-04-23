@@ -6,6 +6,7 @@ password authentication module
 	<link rel="stylesheet" type="text/css" href="password.css">
 </head>
 <body>
+<p> this is a new paragraph</p>
 <div class="main">
 <b>Password:</b><br>
 <input type="text" id="pass1" autofocus class="passlength" onkeyup="match();length();CheckPasswordStrength(this.value);" />    <span id="password_strength"></span><br>
